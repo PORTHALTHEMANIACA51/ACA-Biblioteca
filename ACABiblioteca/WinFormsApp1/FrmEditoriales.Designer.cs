@@ -59,7 +59,7 @@
             lblTitulo.AutoSize = true;
             lblTitulo.Font = new Font("Segoe UI", 24F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblTitulo.ForeColor = Color.White;
-            lblTitulo.Location = new Point(466, 36);
+            lblTitulo.Location = new Point(622, 20);
             lblTitulo.Name = "lblTitulo";
             lblTitulo.Size = new Size(413, 45);
             lblTitulo.TabIndex = 10;
@@ -81,7 +81,7 @@
             // 
             // txtNombre
             // 
-            txtNombre.Location = new Point(608, 64);
+            txtNombre.Location = new Point(798, 55);
             txtNombre.Name = "txtNombre";
             txtNombre.Size = new Size(247, 23);
             txtNombre.TabIndex = 12;
@@ -91,7 +91,7 @@
             lblNombre.AutoSize = true;
             lblNombre.Font = new Font("Segoe UI", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblNombre.ForeColor = Color.Black;
-            lblNombre.Location = new Point(466, 57);
+            lblNombre.Location = new Point(656, 48);
             lblNombre.Name = "lblNombre";
             lblNombre.Size = new Size(100, 30);
             lblNombre.TabIndex = 11;
@@ -104,7 +104,7 @@
             BtnCancelar.IconColor = Color.Black;
             BtnCancelar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             BtnCancelar.IconSize = 25;
-            BtnCancelar.Location = new Point(869, 198);
+            BtnCancelar.Location = new Point(1059, 189);
             BtnCancelar.Name = "BtnCancelar";
             BtnCancelar.Size = new Size(100, 30);
             BtnCancelar.TabIndex = 9;
@@ -119,7 +119,7 @@
             BtnEliminar.IconColor = Color.Black;
             BtnEliminar.IconFont = FontAwesome.Sharp.IconFont.Auto;
             BtnEliminar.IconSize = 25;
-            BtnEliminar.Location = new Point(745, 198);
+            BtnEliminar.Location = new Point(935, 189);
             BtnEliminar.Name = "BtnEliminar";
             BtnEliminar.Size = new Size(100, 30);
             BtnEliminar.TabIndex = 8;
@@ -134,7 +134,7 @@
             BtnEditar.IconColor = Color.Black;
             BtnEditar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             BtnEditar.IconSize = 25;
-            BtnEditar.Location = new Point(618, 198);
+            BtnEditar.Location = new Point(808, 189);
             BtnEditar.Name = "BtnEditar";
             BtnEditar.Size = new Size(100, 30);
             BtnEditar.TabIndex = 7;
@@ -149,7 +149,7 @@
             BtnGuardar.IconColor = Color.Black;
             BtnGuardar.IconFont = FontAwesome.Sharp.IconFont.Regular;
             BtnGuardar.IconSize = 25;
-            BtnGuardar.Location = new Point(485, 198);
+            BtnGuardar.Location = new Point(675, 189);
             BtnGuardar.Name = "BtnGuardar";
             BtnGuardar.Size = new Size(100, 30);
             BtnGuardar.TabIndex = 6;
@@ -164,7 +164,7 @@
             BtnNuevo.IconColor = Color.Black;
             BtnNuevo.IconFont = FontAwesome.Sharp.IconFont.Auto;
             BtnNuevo.IconSize = 25;
-            BtnNuevo.Location = new Point(361, 198);
+            BtnNuevo.Location = new Point(551, 189);
             BtnNuevo.Name = "BtnNuevo";
             BtnNuevo.Size = new Size(100, 30);
             BtnNuevo.TabIndex = 5;
@@ -175,7 +175,7 @@
             // dgvEditoriales
             // 
             dgvEditoriales.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvEditoriales.Location = new Point(141, 410);
+            dgvEditoriales.Location = new Point(287, 404);
             dgvEditoriales.Name = "dgvEditoriales";
             dgvEditoriales.Size = new Size(1100, 260);
             dgvEditoriales.TabIndex = 2;
